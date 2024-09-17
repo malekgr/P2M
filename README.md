@@ -11,8 +11,10 @@ For our customized dataset is not available for everyone.
 We used three models: the Segment Anything Model (SAM), SegFormer, and U-Net. These models were fine-tuned using our custom dataset.
 
 # Code
-For SAM:
-    * Provide the path to your finalized images, which must be in the format (num_images, height, width, num_channels).
-    * Provide the path to your finalized masks, which must be in the format (num_images, height, width).
-For U-Net:
-    * Provide the path to your finalized images and masks.
+
+## For SAM:
+- Provide the path to your finalized images, which must be in the format `(num_images, height, width, num_channels)`.
+- Provide the path to your finalized masks, which must be in the format `(num_images, height, width)`.
+
+## For U-Net:
+- Provide the path to your finalized images and masks.
